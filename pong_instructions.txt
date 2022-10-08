@@ -1,0 +1,10 @@
+Run pong.py to play the game
+
+Press enter to continue at any time
+
+Controls:
+P1:
+W for up
+S for down
+
+P2: Up and down keys
