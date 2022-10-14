@@ -113,7 +113,7 @@ while run:
         if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
             if start:
                 # prev winner determines direction
-                ballVel[0] = prev_winner * ball_start_vel
+                ballVel[0] = -prev_winner * ball_start_vel
                 ballVel[1] = uniform(-2, 2)
             else:
                 direction = choice([-1, 1])
