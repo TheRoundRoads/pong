@@ -29,9 +29,9 @@ ballVel = [0, 0]
 ball = Ball(WIDTH // 2 - RADIUS // 2, HEIGHT // 2 - RADIUS // 2, RADIUS)
 
 velocity = 4
-ball_start_vel = 2
+ball_start_vel = 2.2
 max_speed = 25
-inc_factor = 1.3
+inc_factor = 1.15
 
 WIN_POINTS = 3
 
